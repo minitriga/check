@@ -1,0 +1,9 @@
+---
+queries:
+  - name: tags
+    file_path: queries/tags.gql
+
+check_definitions:
+  - name: check_tag_name
+    class_name: CheckTagName
+    file_path: checks/check_tag_name.py

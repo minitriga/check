@@ -1,0 +1,17 @@
+query Tags {
+  BuiltinTag {
+    edges {
+      node {
+        id
+        __typename
+        display_label
+        name {
+          value
+        }
+        description {
+          value
+        }
+      }
+    }
+  }
+}
